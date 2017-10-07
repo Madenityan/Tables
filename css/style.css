@@ -1,45 +1,38 @@
 .table_1 {
-	width: 100%;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+td, th{
+	padding: 5px;
 }
 
  .table, td, th {
 	border: 1px solid #000000;
 }
 
-.table_1 th {
-	height: 27px;
-	width: 278px;
-}
-
-.table_2 {
+.table_1, .table_2 {
 	border: 1px solid #000000;
 }
  
-.middle {
-	width: 45%;
+.middle_table {
+	width: 592px;
 	margin: auto;
-	padding: 20px;
-
+	padding: 22px;
 }
 
-.middle th {
-	padding: 0 15px;
-}
-
-
-.lowland {
-	width: 45%;
+.bottom_table{
+	width: 592px;
 	margin: auto;
 	padding: 10px;	
 }
 
-.unframed {
+.table_3 {
 	border-collapse: collapse;
 	border: 2px solid #444444;
 	box-shadow: 0 0 5px #afafaf;
-	margin-bottom: 5px;
 }
 
-td {
-	padding: 5px;
+.table_3 th {
+	text-align: left;
 }
